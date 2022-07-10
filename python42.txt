@@ -1,0 +1,6 @@
+#42
+def GFG(name, num):
+    print("Hello from ", name + ', ' + num)
+  
+  
+GFG("tata billa", "25")

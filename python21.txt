@@ -1,0 +1,10 @@
+#21.
+def minimum(a, b):
+      
+    if a <= b:
+        return a
+    else:
+        return b
+a = 25
+b = 14
+print(minimum(a, b))

@@ -1,0 +1,6 @@
+#40
+from itertools import groupby
+test_list = [12,34,56,78,92]
+print("The original list : " + str(test_list))
+res = [list(val) for key, val in groupby(sorted(test_list))]  
+print("Matrix after grouping : " + str(res))
